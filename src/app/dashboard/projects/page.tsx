@@ -291,7 +291,7 @@ export default function ProjectsPage() {
                 <TableHead>Status</TableHead>
                 <TableHead>Type</TableHead>
                 <TableHead>Deadline</TableHead>
-                <TableHead className="w-10"></TableHead>
+                <TableHead className="w-10">&nbsp;</TableHead>
               </TableRow>
             </TableHeader>
             <TableBody>

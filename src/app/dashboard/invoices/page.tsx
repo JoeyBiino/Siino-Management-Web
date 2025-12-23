@@ -363,7 +363,7 @@ export default function InvoicesPage() {
                 <TableHead>Due Date</TableHead>
                 <TableHead>Status</TableHead>
                 <TableHead className="text-right">Amount</TableHead>
-                <TableHead className="w-10"></TableHead>
+                <TableHead className="w-10">&nbsp;</TableHead>
               </TableRow>
             </TableHeader>
             <TableBody>
