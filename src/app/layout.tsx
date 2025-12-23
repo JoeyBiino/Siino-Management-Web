@@ -6,9 +6,6 @@ import './globals.css';
 export const metadata: Metadata = {
   title: 'Siino Management',
   description: 'Business management platform for creative professionals',
-  icons: {
-    icon: '/favicon.ico',
-  },
 };
 
 export default function RootLayout({
@@ -17,8 +14,8 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <html lang="en" className="dark">
-      <body className={`${GeistSans.variable} ${GeistMono.variable} font-sans`}>
+    <html lang="en" className={`dark ${GeistSans.variable} ${GeistMono.variable}`}>
+      <body className="font-sans">
         {children}
       </body>
     </html>
