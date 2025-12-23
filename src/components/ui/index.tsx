@@ -577,9 +577,9 @@ export function TableHead({ children, className }: { children?: React.ReactNode;
   );
 }
 
-export function TableCell({ children, className }: { children: React.ReactNode; className?: string }) {
+export function TableCell({ children, className, onClick }: { children?: React.ReactNode; className?: string; onClick?: (e: React.MouseEvent) => void }) {
   return (
-    <td className={cn('px-4 py-3 text-sm text-gray-300', className)}>
+    <td className={cn('px-4 py-3 text-sm text-gray-300', className)} onClick={onClick}>
       {children}
     </td>
   );
